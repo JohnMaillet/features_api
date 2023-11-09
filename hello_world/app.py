@@ -41,7 +41,7 @@ def lambda_handler(event, context):
             'Access-Control-Allow-Methods': 'GET'
         },
         "body": json.dumps({
-            "message": "hello world, I've made an update",
+            "message": "hello world",
             # "location": ip.text.replace("\n", "")
         }),
     }
